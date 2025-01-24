@@ -16,7 +16,7 @@ public class Tree1 {
 
         return nodes[idx] + " " +
                 preorder(nodes, 2 * idx + 1) +
-                preorder(nodes, 2 + idx + 2);
+                preorder(nodes, 2 * idx + 2);
     }
 
     private static String inorder(int[] nodes, int idx) {
@@ -35,7 +35,7 @@ public class Tree1 {
         }
 
         return postorder(nodes, 2 * idx + 1) +
-                postorder(nodes, 2 * idx +2) +
+                postorder(nodes, 2 * idx + 2) +
                 nodes[idx] + " ";
     }
 }
