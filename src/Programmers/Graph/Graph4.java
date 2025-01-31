@@ -1,3 +1,4 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/1844?language=java
 package Programmers.Graph;
 
 import java.util.ArrayDeque;
@@ -23,7 +24,7 @@ public class Graph4 {
         // 3. 최단 거리를 저장할 배열 생성
         int[][] dist = new int[N][M];
 
-        // 4. bfs 탐색을 위한 큐 생성
+        // 4. BFS 탐색을 위한 큐 생성
         ArrayDeque<Node> queue = new ArrayDeque<>();
 
         // 5. 시작 정점에 대해서 큐에 추가, 최단 거리 저장
